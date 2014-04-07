@@ -3,3 +3,55 @@
 * {
   border: thin red solid;
 }
+
+h1 {
+	background-color: lightgrey;
+	vertical-align: text-top;
+	height: 200px;
+}
+
+.leftcol {
+  float: left;
+  width: 33%;
+}
+
+.rightcol {
+  float: right;
+  width: 33%;
+}
+
+.centercol {
+	margin: 0px;
+}
+
+.button {
+    background: blue;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   height: 30px;
+   width: 150px;
+   display: inline-block;
+   }
+
+.img {
+  float: left;
+  width: 66%;
+}
+
+.quartercol {
+  float: left;
+  width: 25%;
+}
+
+.makerow {
+  clear: both;
+}
+
+.clearfix {
+  clear: both;
+}
+
